@@ -1,0 +1,15 @@
+/node_modules
+/.next
+/out
+/build
+.DS_Store
+*.pem
+npm-debug.log*
+.env*.local
+.vercel
+next-env.d.ts
+
+# 원본 사진 폴더 (가공본은 public/gallery 에 있음 — 원본은 저장소에서 제외)
+/갤러리에 들어갈 것/
+/맨 마지막/
+/메인 사진.jpg
