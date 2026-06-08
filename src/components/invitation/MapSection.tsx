@@ -25,11 +25,6 @@ export default function MapSection() {
       color: "bg-[#03C75A] text-white",
     },
     {
-      name: "티맵",
-      href: `https://apis.openapi.sk.com/tmap/app/routes?name=${q}&lon=${wedding.lng}&lat=${wedding.lat}`,
-      color: "bg-[#1D9BF0] text-white",
-    },
-    {
       name: "구글지도",
       href: `https://www.google.com/maps/search/?api=1&query=${q}`,
       color: "bg-white text-ink border border-line",
@@ -108,7 +103,7 @@ export default function MapSection() {
         </div>
 
         {/* 길찾기 버튼 */}
-        <div className="mt-5 grid grid-cols-2 gap-2.5">
+        <div className="mt-5 grid grid-cols-3 gap-2">
           {links.map((l) => (
             <a
               key={l.name}
