@@ -26,8 +26,8 @@ export const invitation = {
   meta: {
     title: "조경준 ♥ 박혜림 결혼합니다",
     description: "2026년 10월 4일 일요일 오전 11시 50분, 호텔 ICC 3층 그랜드볼룸",
-    // 배포 후 실제 도메인으로 교체 (예: https://your-domain.vercel.app)
-    url: "https://example.com",
+    // 배포 도메인 (OG 공유 미리보기 절대경로용)
+    url: "https://wedding-invitation-mauve-delta.vercel.app",
     ogImage: "/og.png",
   },
 
