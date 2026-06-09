@@ -40,7 +40,7 @@ export const invitation = {
   },
   bride: {
     name: "박혜림",
-    father: "박○○", // TODO: 신부 아버지 성함 — 계약서에 미기재
+    father: "🏵️ 박명근", // 고인 (국화꽃으로 표시)
     mother: "김선미",
     order: "장녀",
   },
