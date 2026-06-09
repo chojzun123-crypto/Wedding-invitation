@@ -40,7 +40,8 @@ export const invitation = {
   },
   bride: {
     name: "박혜림",
-    father: "🏵️ 박명근", // 고인 (국화꽃으로 표시)
+    father: "박명근",
+    fatherMark: "/flower.png", // 고인 표시(국화) — 이름 앞 작은 아이콘
     mother: "김선미",
     order: "장녀",
   },

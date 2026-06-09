@@ -31,7 +31,17 @@ export default function Greeting() {
             <span className="mx-2 font-serif text-ink">{groom.name}</span>
           </p>
           <p>
-            <span className="text-ink">{bride.father}</span>
+            <span className="inline-flex items-center text-ink">
+              {"fatherMark" in bride && bride.fatherMark && (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img
+                  src={bride.fatherMark}
+                  alt="고(故) 국화"
+                  className="mr-1 inline-block h-[1.05em] w-auto translate-y-[1px] opacity-90"
+                />
+              )}
+              {bride.father}
+            </span>
             <span className="mx-1.5 text-line">·</span>
             <span className="text-ink">{bride.mother}</span>
             <span className="ml-2">의 {bride.order}</span>
