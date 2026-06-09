@@ -113,10 +113,9 @@ export const invitation = {
   // ── 마음 전하실 곳 / 계좌 (S6) ─────────────────
   accounts: [
     // 신랑측
+    { group: "groom", relation: "신랑", bank: "농협", number: "302-1680-7744-01", holder: "조경준" },
     { group: "groom", relation: "신랑 아버지", bank: "농협", number: "407-01-051912", holder: "조장희" },
     { group: "groom", relation: "신랑 어머니", bank: "농협", number: "174473-52-032131", holder: "이정란" },
-    // TODO: 신랑 조경준 본인 계좌가 있으면 추가
-    // { group: "groom", relation: "신랑", bank: "", number: "", holder: "조경준" },
 
     // 신부측 — TODO: 실제 계좌를 받으면 아래 주석을 풀어 채우세요 (현재는 숨김 처리)
     // { group: "bride", relation: "신부", bank: "", number: "", holder: "박혜림" },
