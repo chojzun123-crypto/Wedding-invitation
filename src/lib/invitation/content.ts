@@ -111,10 +111,15 @@ export const invitation = {
   ] as Contact[],
 
   // ── 마음 전하실 곳 / 계좌 (S6) ─────────────────
-  // TODO(샘플): 실제 계좌로 교체하세요. (현재 값은 예시이며 실제 계좌가 아닙니다)
   accounts: [
-    { group: "groom", relation: "신랑 조경준", bank: "○○은행", number: "000-0000-0000-00", holder: "조경준" },
-    { group: "bride", relation: "신부 박혜림", bank: "○○은행", number: "000-0000-0000-00", holder: "박혜림" },
+    // 신랑측
+    { group: "groom", relation: "신랑 아버지", bank: "농협", number: "407-01-051912", holder: "조장희" },
+    { group: "groom", relation: "신랑 어머니", bank: "농협", number: "174473-52-032131", holder: "이정란" },
+    // TODO: 신랑 조경준 본인 계좌가 있으면 추가
+    // { group: "groom", relation: "신랑", bank: "", number: "", holder: "조경준" },
+
+    // 신부측 — TODO: 실제 계좌를 받으면 아래 주석을 풀어 채우세요 (현재는 숨김 처리)
+    // { group: "bride", relation: "신부", bank: "", number: "", holder: "박혜림" },
   ] as Account[],
 };
 
