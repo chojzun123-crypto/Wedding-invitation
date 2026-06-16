@@ -117,16 +117,24 @@ export default function Gallery() {
           </div>
 
           <div
-            className="flex items-center justify-between p-5 text-white"
+            className="flex items-center justify-between p-5"
             onClick={(e) => e.stopPropagation()}
           >
-            <button onClick={prev} aria-label="이전" className="px-4 py-2 text-2xl">
+            <button
+              onClick={prev}
+              aria-label="이전"
+              className="flex h-10 w-10 items-center justify-center rounded-full bg-white text-xl leading-none text-ink shadow-md ring-1 ring-black/10"
+            >
               ‹
             </button>
-            <span className="text-sm text-white/70">
+            <span className="rounded-full bg-white/90 px-3 py-1 text-xs text-ink shadow ring-1 ring-black/10">
               {open + 1} / {images.length}
             </span>
-            <button onClick={next} aria-label="다음" className="px-4 py-2 text-2xl">
+            <button
+              onClick={next}
+              aria-label="다음"
+              className="flex h-10 w-10 items-center justify-center rounded-full bg-white text-xl leading-none text-ink shadow-md ring-1 ring-black/10"
+            >
               ›
             </button>
           </div>
