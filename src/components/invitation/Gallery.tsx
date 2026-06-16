@@ -80,7 +80,19 @@ export default function Gallery() {
               className="inline-flex items-center gap-1.5 rounded-full border border-line bg-paper px-6 py-2.5 text-sm text-point shadow-sm active:scale-95"
             >
               {expanded ? "접기" : "더보기"}
-              <span className={`transition-transform ${expanded ? "rotate-180" : ""}`}>⌄</span>
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className={`transition-transform ${expanded ? "rotate-180" : ""}`}
+              >
+                <polyline points="6 9 12 15 18 9" />
+              </svg>
             </button>
           </div>
         )}
