@@ -96,7 +96,7 @@ export default function Gallery() {
             <button
               onClick={close}
               aria-label="닫기"
-              className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white"
+              className="flex h-10 w-10 items-center justify-center rounded-full bg-white text-ink shadow-md ring-1 ring-black/10"
             >
               ✕
             </button>
