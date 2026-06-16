@@ -88,7 +88,7 @@ export const invitation = {
   // public/gallery/ 에 이미지를 넣고 아래 목록을 맞추세요. (예: /gallery/1.jpg)
   // 파일이 없으면 자동으로 플레이스홀더가 표시됩니다.
   gallery: {
-    // 처음 9장(3×3)만 보이고, 더 추가하면 '더보기'로 펼침
+    // 처음 9장(3×3)만 보이고 '더보기'로 나머지 펼침
     preview: 9,
     images: [
       "/gallery/1.jpg",
@@ -100,6 +100,9 @@ export const invitation = {
       "/gallery/7.jpg",
       "/gallery/8.jpg",
       "/gallery/9.jpg",
+      "/gallery/10.jpg",
+      "/gallery/11.jpg",
+      "/gallery/12.jpg",
     ],
   },
 
