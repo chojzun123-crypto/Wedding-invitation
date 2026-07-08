@@ -28,7 +28,7 @@ export const invitation = {
     description: "2026년 10월 4일 일요일 오전 11시 50분, 호텔 ICC 3층 그랜드볼룸",
     // 배포 도메인 (OG 공유 미리보기 절대경로용)
     url: "https://wedding-invitation-mauve-delta.vercel.app",
-    ogImage: "/og2.png", // 카카오 캐시 우회: 이미지 파일명 자체를 변경
+    ogImage: "/og3.png", // 이름 간격 대칭 수정본 (카카오 캐시 우회 위해 파일명 변경)
   },
 
   // ── 신랑 / 신부 ────────────────────────────────
