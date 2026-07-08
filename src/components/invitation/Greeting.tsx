@@ -26,9 +26,8 @@ export default function Greeting() {
           <p>
             <span className="text-ink">{groom.father}</span>
             <span className="mx-1.5 text-line">·</span>
-            <span className="text-ink">{groom.mother}</span>
-            <span className="ml-2">의 {groom.order}</span>
-            <span className="mx-2 font-serif text-ink">{groom.name}</span>
+            <span className="text-ink">{groom.mother}의 {groom.order}</span>
+            <span className="ml-2 font-serif text-ink">{groom.name}</span>
           </p>
           <p>
             <span className="text-ink">
@@ -43,9 +42,8 @@ export default function Greeting() {
               {bride.father}
             </span>
             <span className="mx-1.5 text-line">·</span>
-            <span className="text-ink">{bride.mother}</span>
-            <span className="ml-2">의 {bride.order}</span>
-            <span className="mx-2 font-serif text-ink">{bride.name}</span>
+            <span className="text-ink">{bride.mother}의 {bride.order}</span>
+            <span className="ml-2 font-serif text-ink">{bride.name}</span>
           </p>
         </div>
       </Reveal>

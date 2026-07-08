@@ -36,14 +36,14 @@ export const invitation = {
     name: "조경준",
     father: "조장희",
     mother: "이정란",
-    order: "장남",
+    order: "아들",
   },
   bride: {
     name: "박혜림",
     father: "박명근",
     fatherMark: "/flower.png", // 고인 표시(국화) — 이름 앞 작은 아이콘
     mother: "김선미",
-    order: "장녀",
+    order: "딸",
   },
 
   // ── 예식 일시 / 장소 ───────────────────────────
