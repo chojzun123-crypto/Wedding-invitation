@@ -24,26 +24,26 @@ export default function Greeting() {
         {/* 혼주 표기 */}
         <div className="space-y-2 text-[15px] text-sub">
           <p>
-            <span className="text-ink">{groom.father}</span>
-            <span className="mx-1.5 text-line">·</span>
-            <span className="text-ink">{groom.mother}의 {groom.order}</span>
-            <span className="ml-2 font-serif text-ink">{groom.name}</span>
+            <span className="text-ink">{groom.father}</span>{" "}
+            <span className="text-line">·</span>{" "}
+            <span className="text-ink">{groom.mother}</span>
+            <span className="text-sub">의 {groom.order}</span>{" "}
+            <span className="text-ink">{groom.name}</span>
           </p>
           <p>
-            <span className="text-ink">
-              {bride.fatherMark && (
-                // eslint-disable-next-line @next/next/no-img-element
-                <img
-                  src={bride.fatherMark}
-                  alt="고(故)"
-                  className="mr-1 inline-block h-[1.35em] w-auto align-middle opacity-90"
-                />
-              )}
-              {bride.father}
-            </span>
-            <span className="mx-1.5 text-line">·</span>
-            <span className="text-ink">{bride.mother}의 {bride.order}</span>
-            <span className="ml-2 font-serif text-ink">{bride.name}</span>
+            {bride.fatherMark && (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img
+                src={bride.fatherMark}
+                alt="고(故)"
+                className="mr-1 inline-block h-[1.35em] w-auto align-middle opacity-90"
+              />
+            )}
+            <span className="text-ink">{bride.father}</span>{" "}
+            <span className="text-line">·</span>{" "}
+            <span className="text-ink">{bride.mother}</span>
+            <span className="text-sub">의 {bride.order}</span>{" "}
+            <span className="text-ink">{bride.name}</span>
           </p>
         </div>
       </Reveal>
