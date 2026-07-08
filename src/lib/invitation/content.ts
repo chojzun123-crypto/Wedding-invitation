@@ -126,8 +126,9 @@ export const invitation = {
     { group: "groom", relation: "신랑 아버지", bank: "농협", number: "407-01-051912", holder: "조장희" },
     { group: "groom", relation: "신랑 어머니", bank: "농협", number: "174473-52-032131", holder: "이정란" },
 
-    // 신부측 — TODO: 실제 계좌를 받으면 아래 주석을 풀어 채우세요 (현재는 숨김 처리)
-    // { group: "bride", relation: "신부", bank: "", number: "", holder: "박혜림" },
+    // 신부측
+    { group: "bride", relation: "신부", bank: "농협은행", number: "302-1995-1229-21", holder: "박혜림" },
+    { group: "bride", relation: "신부 어머니", bank: "국민은행", number: "474901-04-002297", holder: "김선미" },
   ] as Account[],
 };
 
