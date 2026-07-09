@@ -111,7 +111,6 @@ export const invitation = {
       "/gallery/14.jpg",
       "/gallery/15.jpg",
       "/gallery/16.jpg",
-      "/gallery/17.jpg",
     ],
   },
 
