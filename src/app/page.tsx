@@ -8,6 +8,7 @@ import Accounts from "@/components/invitation/Accounts";
 import Contact from "@/components/invitation/Contact";
 import Share from "@/components/invitation/Share";
 import FloatingButtons from "@/components/invitation/FloatingButtons";
+import MusicPlayer from "@/components/invitation/MusicPlayer";
 
 export default function Page() {
   return (
@@ -23,6 +24,7 @@ export default function Page() {
         <Contact />
         <Share />
       </main>
+      <MusicPlayer />
       <FloatingButtons />
     </ToastProvider>
   );
