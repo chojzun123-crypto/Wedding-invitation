@@ -5,6 +5,7 @@ import Calendar from "@/components/invitation/Calendar";
 import Gallery from "@/components/invitation/Gallery";
 import MapSection from "@/components/invitation/MapSection";
 import Accounts from "@/components/invitation/Accounts";
+import Guestbook from "@/components/invitation/Guestbook";
 import Contact from "@/components/invitation/Contact";
 import Share from "@/components/invitation/Share";
 import FloatingButtons from "@/components/invitation/FloatingButtons";
@@ -21,6 +22,7 @@ export default function Page() {
         <Gallery />
         <MapSection />
         <Accounts />
+        <Guestbook />
         <Contact />
         <Share />
       </main>
